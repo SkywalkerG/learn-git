@@ -1,0 +1,10 @@
+git status			工作区	
+
+git add a.text	 	暂存区
+git add b.text
+
+git status			仓库
+git commit -m "提交描述"
+
+
+git status 			上传之后看状态

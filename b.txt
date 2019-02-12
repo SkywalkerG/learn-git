@@ -1,0 +1,23 @@
+git 初始化
+1.设置用户名
+git config --global user.name 'SkywalkerG'
+2.设置用户名邮箱
+git config --global user.email 'you email '
+
+3.查看设置
+git config --list
+
+创建本地仓库说白了就是创建个文件夹 右键新建文件夹 或者命令行 mkdir 文件夹名
+在文件夹下 执行命令 git init 
+向仓库提交文件
+先查看状态 
+git status			工作区	
+
+git add a.text	 	暂存区
+git add b.text
+
+git status			仓库
+git commit -m "提交描述"
+
+
+git status 			上传之后看状态
