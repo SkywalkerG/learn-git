@@ -22,6 +22,20 @@ git add 1.py
 git commit -m "change 1"
 git log
 
+再次修改使用下面命令
+git status -s
+git diff HEAD 
+
+创建 dev 分支
+git branch dev
+查看分支
+git branch 
+改变分支
+git checkout dev
+
+切换到主节点
+git checkout master
+git merge dev 将dev merge到master中
 
 
 
