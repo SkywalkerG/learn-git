@@ -45,3 +45,7 @@ vi .git/config
     url = https://github.com/git用户名/仓库名.git
 修改为
     url = https://用户名:密码@github.com/git用户名/仓库名.git
+
+warning: LF will be replaced by CRLF
+git config –global core.autocrlf false
+git add --all 添加所有文件

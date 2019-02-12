@@ -1,0 +1,27 @@
+git config --global user.name yourgithubusername 
+git config --global user.email yourgithubemail
+git config --list
+
+
+git init
+ls -a
+
+touch 1.py
+git status
+
+git add 1.py
+git status
+
+git commit 
+
+git log
+ÐÞ¸Ä 1.py 
+git status
+git add 1.py
+
+git commit -m "change 1"
+git log
+
+
+
+
