@@ -18,3 +18,10 @@ git add a.txt
 
 git commit -m '修改了a.txt文件并提交到仓库'
 
+删除
+直接在文件夹里删除文件
+rm c.txt
+
+git rm c.txt
+
+giit commit -m '提交描述'
