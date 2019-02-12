@@ -1,10 +1,20 @@
+添加
 git status			工作区	
 
-git add a.text	 	暂存区
-git add b.text
+git add a.txt	 	暂存区
+git add b.txt
 
 git status			仓库
 git commit -m "提交描述"
 
 
 git status 			上传之后看状态
+
+修改
+修改文件
+git status
+
+git add a.txt 		
+
+git commit -m '修改了a.txt文件并提交到仓库'
+
